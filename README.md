@@ -8,14 +8,15 @@ TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
 
+
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 
 
 ***********************************
 
-## Install script for yiimp on Ubuntu Server 16.04 / 18.04 (use Tpruvot's Yiimp)
+## Install script for yiimp on Ubuntu Server 16.04(EOL not Recommended) / 18.04 
 
-USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04 / 18.04 !
+USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04(EOL Not Recommended) / 18.04 !
 
 Connect on your VPS =>
 - apt update
@@ -25,9 +26,10 @@ Connect on your VPS =>
 - adduser pool sudo
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/xavatar/yiimp_install_scrypt.git
+- git clone https://github.com/andretsc/Yiimp-Ubuntu.git
 - cd yiimp_install_scrypt/
-- bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
+- bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)(Debug to see logs)
+- sudo apt install php7.3-memcache php7.3-memcached memcached
 - At the end, you MUST REBOOT to finalize installation...
 
 Finish !
@@ -37,7 +39,6 @@ Finish !
 If you are issue after installation (nginx,mariadb... not found), use this script : bash install-debug.sh (watch the log during installation)
 
 ###### :bangbang: **Kudaraidee Install Script :**
-- Instead Tpruvot's Yiimp, you can use the Kudaraidee's Repo Yiimp : git clone -b Kudaraidee https://github.com/Kudaraidee/yiimp.git
 - It's an updated Yiimp, with more algo, some fix....
 
 ###### :bangbang: **YOU MUST UPDATE THE FOLLOWING FILES :**
