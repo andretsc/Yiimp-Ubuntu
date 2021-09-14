@@ -1,13 +1,12 @@
-# Yiimp_install_scrypt v0.2 (update Avril, 2020)
+# Yiimp-Ubuntu Installer script (Sept/2021 Update)
 
-Site : https://www.xavatar.com
+Site : https://www.cryptominerscoin.net
 
-Discord : https://discord.gg/zcCXjkQ
+Discord : https://discord.gg/v4EBstXH
 
 TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
-
 
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 
@@ -73,9 +72,9 @@ While I did add some server security to the script, it is every server owners re
 
 There will be several wallets already in yiimp. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
-If you need further assistance we have a small but growing discord channel at https://discord.gg/zcCXjkQ
+If you need further assistance we have a small but growing discord channel at https://discord.gg/v4EBstXH (Portuguese)
 
 If this helped you or you feel giving please donate : 
-- BTC Donation : 1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7
-- BCH Donation : 1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz
-- ETH Donation : 0xc23E6902fF8Cd8878EDADE18Dc49B3505395F0a1
+- BTC Donation : 32hGvCcmwof9hiybjM6kLpUk9J7yVtyjc8
+- LTC Donation : LS53MePh9jt3X2TTteBw1tibbQBsRRrcCT
+- ETH Donation : 0x81fe16d59bc84d447baa29b5a999038641a33684
