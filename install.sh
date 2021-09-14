@@ -178,7 +178,7 @@
     #hide_output sudo phpenmod mbstring
     else
     apt_install php7.3-fpm php7.3-opcache php7.3 php7.3-common php7.3-gd php7.3-mysql php7.3-imap php7.3-cli \
-    php7.3-cgi php-pear imagemagick libruby php7.3-curl php7.3-intl php7.3-pspell mcrypt\
+    php7.3-cgi php-pear imagemagick libruby php7.3-curl php7.3-intl php7.3-pspell mcrypt php7.3-memcache php7.3-memcached memcached\
     php7.3-recode php7.3-sqlite3 php7.3-tidy php7.3-xmlrpc php7.3-xsl memcached php-memcache php-imagick php-gettext php7.3-zip php7.3-mbstring \
     libpsl-dev libnghttp2-dev
     fi
@@ -1018,7 +1018,7 @@
     define('"'"'YIIMP_FIAT_ALTERNATIVE'"'"', '"'"'USD'"'"'); // USD is main
     define('"'"'YAAMP_USE_NICEHASH_API'"'"', false);
     
-    define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7'"'"');
+    define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'32hGvCcmwof9hiybjM6kLpUk9J7yVtyjc8'"'"');
     
     define('"'"'YAAMP_SITE_URL'"'"', '"'"''"${server_name}"''"'"');
     define('"'"'YAAMP_STRATUM_URL'"'"', YAAMP_SITE_URL); // change if your stratum server is on a different host
@@ -1052,16 +1052,16 @@
     define('"'"'EXCH_NOVA_KEY'"'"', '"'"''"'"');
     
     // Automatic withdraw to Yaamp btc wallet if btc balance > 0.3
-    define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
+    define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.03);
     
     // nicehash keys deposit account & amount to deposit at a time
-    define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
-    define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
-    define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
+    define('"'"'NICEHASH_API_KEY'"'"','"'"''"'"');
+    define('"'"'NICEHASH_API_ID'"'"','"'"''"'"');
+    define('"'"'NICEHASH_DEPOSIT'"'"','"'"''"'"');
     define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
     
     $cold_wallet_table = array(
-	'"'"'1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz'"'"' => 0.10,
+	'"'"'32hGvCcmwof9hiybjM6kLpUk9J7yVtyjc8'"'"' => 0.01,
     );
     
     // Sample fixed pool fees
